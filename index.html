@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+<title>Portal Empleo</title>
+</head>
+<body onload="startTime()" class="color1">
+    <nav class="navbar">
+        <div class="nav_logo"><a href="#"><img src="img/logo-wise.png" style="width:40%; padding: 10px;"></a></div>
+        <div class="nav_items" id="_items">
+            <a href="index.html">PDE</a>
+            <a href="SILAP.html">SILAP</a>
+            <a href="FERIAS.html">FERIAS</a>
+            <a href="SIMOL.html">SIMOL</a>
+            <a href="ACCESO.html">ACCESO</a>
+            <a href="GUIAS.html">GUIAS</a>
+            <a href="ESCALAS.html">ESCALAS</a>
+        </div>
+        <div class="nav_toggle" id="_toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+   </nav>
+<div class="row">
+    <div class="col-12 col-s-12">
+    <div class="aside row">  
+      <div class="bnr col-6 col-s-6">
+            <img class="logo1" src="img/logo-PE.png">
+        </div>
+        <div class="col-6 col-s-6">
+          <div id="relojnumerico" class="reloj" onload="cargarReloj()"></div>
+          <div id="current_date" class="fechini"></div>
+        </div>
+    </div>
+  </div>
+  <div class="col-3 col-s-3 menu">
+    <div><textarea style="width:100%; height: 380px;">
+fabiola.cadena@wise-i.mx
+ax##@5651SNE#@
+----------------
+https://qasimol.stps.gob.mx
+SELDRAND
+T2439g6930
+----------------
+</textarea></div>
+        <div class="c-body">
+        <div class="c-time">
+            <div class="screen">
+                <!-- <span id="time">00:00:00.00</span> -->
+                    <span id="cronometro">00:00:00</span>
+
+            </div>  
+            <div class="c-btn">     
+                  <button id="inicio">&#9658;</button>
+                  <button id="parar">&#8718;</button>
+                  <button id="reiniciar">&#8635;</button>
+               <!-- <button id="btn-start">&#9658;</button>                          
+               <button id="btn-stop">&#8718;</button>                             
+               <button id="btn-reset">&#8635;</button>                                      -->
+            </div>          
+        </div>        
+    </div>
+    <div>
+        <a href="#script"><button class="fcc-btn">AYUDA</button></a>
+        </div>
+  </div>
+
+  <div class="col-9 col-s-9">
+    <iframe class ="framesito" src="https://empleo.gob.mx/PortalDigital"></iframe>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12 col-s-12">
+    <a name="script" class="animato"></a>
+    <h1 class="edition" id="apoyo">SCRIPT</h1>
+  </div>
+  <div class="col-9 col-s-9">
+    <a name="scpt1"></a>
+        <span class="edition-2"><p class="ayuda-scpt">¿Ya consultò las vacantes dentro del portal del empleo?<br><span>(Escucha activa ya que aqui dependerá que tipo de zondeos realizar)</span></p></span>
+  </div>
+  <div class="col-3 col-s-3">
+    <div class="row">
+        <div class="col-12 col-s-12 menu">
+            <ul>
+              <li><a href="#scpt1">Consulta Vacantes</a></li>
+              <li>The City</li>
+              <li>The Island</li>
+              <li>The Food</li>
+            </ul>
+        </div>
+  </div>
+</div>
+</div>
+<div class="footer">
+  <p>Derechos Reservados por Alexis Flores</p>
+</div>
+<script src="time.js"></script>
+<script src="reloj.js"></script>
+<script src="menu.js"></script>
+<script src="fecha.js"></script>
+</body>
+</html>
+
+
